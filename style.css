@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(255, 97, 210);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.palote{
+  background: url("images/palote.png");
+  width: 100%;
+  height: 100%;
+}
+
+.foto{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.card1{
+  text-align: center;
+  margin: 0 auto;
+  height: fit-content;
+  width: 60%;
+  font-size: 1.5rem;
+  background-color: rgb(190, 185, 188, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn:hover{
+  background-color: fuchsia;
+  transition: all ease 1s;
+}
+
+footer{
+  width: 50%;
+  margin: 0 auto;
+  height: 20%;
+  font-size: 2rem;
+  background-color: rgb(190, 185, 188, 0.3);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 60%;
+}
+
+footer > ul > li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 5%;
+  font-size: 3rem;
+  color: rgb(211, 49, 211);
+}
+
+li:hover{
+  color: black;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .foto {
+    width: 150px;
+    height: 150px;
+  }
+
+  body{
+    font-size: 0.5rem;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .card1{
+    width: 100%;
+  }
+}
